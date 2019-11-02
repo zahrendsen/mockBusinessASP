@@ -1,0 +1,27 @@
+section#report {
+    color: black;
+    margin: 25px 25px;
+    background-image: linear-gradient(to right, #FAF0A9, #FAED8F);
+    box-shadow: inset 10px 10px 20px rgba(255, 157, 0, 0.4), inset -10px -10px 20px rgba(255, 157, 0, 0.4);
+    border-radius: 15px;
+    width: auto;
+}
+table#reportTable {
+    border: 1px solid black;
+    width: 100%;
+  }
+  
+table#reportTable caption {
+    text-align: center;
+    font-size: 1.25em;
+    text-decoration: underline;
+  }
+  
+  table#reportTable thead {
+    text-align: center;
+  }
+  
+  table#reportTable tr td {
+    border: 1px solid black;
+    padding: 1%;
+  }

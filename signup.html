@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Hops :: Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles1.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Passion+One" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="topnav">
+            <nav>
+                <ul>
+
+                    <li><a href="index.html" id="home">Home</a></li>
+
+                    <li><a href="signup.html">Sign Up</a></li>
+
+                    <li><a href="contact.aspx">Contact</a></li>
+
+                    <li><a href="login.php">Admin</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div id="logocomplete">
+            <div id="companyname">
+                <h1>Hops Footwear</h1>
+            </div>
+            <img id="logoimg" src="images/rabbit.png" alt="rabbit" />
+            <div id="slogan">
+                <h3>Stay Updated, Sign Up Here</h3>
+            </div>
+        </div>
+
+    </header>
+
+    <form action="thankyou2.php" method="post">
+        <label for="fname">First Name*</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        <label for="lname">Last Name*</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        <label for="email">Email*</label>
+        <input type="text" id="email" name="email" placeholder="name@email.com" required>
+        <label for="bday">Birthdate (Not required but we will wish you a Happy B-Day)</label>
+        <input name="bday" id="bday" type="date">
+
+
+        <input type="submit" id="subButton" value="Submit">
+    </form>
+
+</body>
+
+</html>
